@@ -1,0 +1,16 @@
+{
+  "name": "descriptions",
+  "version": "0.0.1",
+  "description": "Descriptions microservice",
+  "main": "index.js",
+  "scripts": {
+    "start" : "micro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Likness",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^6.2.0",
+    "mongojs": "^2.4.0"
+  }
+}

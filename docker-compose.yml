@@ -10,7 +10,10 @@ services:
         image: mongo
         volumes_from: 
             - seed
-        ports:
-            - "27017:27017"
-            - "28017:28017"
         command: ["/seed/seed.sh"]
+    descriptions:
+        build: ./descriptions
+        ports:
+            - "3000:3000"
+        links: 
+            - db
