@@ -1,0 +1,16 @@
+version: '2'
+services:
+    seed:
+        build: 
+            context: .
+            dockerfile: Dockerfile-seed
+        volumes:
+            - /seed
+    db:
+        image: mongo
+        volumes_from: 
+            - seed
+        ports:
+            - "27017:27017"
+            - "28017:28017"
+        command: ["/seed/seed.sh"]

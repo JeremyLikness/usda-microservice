@@ -1,0 +1,24 @@
+FROM ubuntu:16.04
+
+MAINTAINER Jeremy Likness <jeremy@jeremylikness.com>
+
+# update environment and ensure wget is there 
+RUN apt-get update \
+    && apt-get install -y wget
+
+RUN mkdir -p /seed 
+
+COPY ./seed.sh /seed
+
+# load the USDA data and clean it up so it can be parsed as a CSV 
+RUN wget https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/asc/FOOD_DES.txt 
+
+# change permissions and stage to mount
+RUN  chmod 777 /FOOD_DES.txt \
+    && sed -i 's/\~/\"/g' ./FOOD_DES.txt \
+    && sed -i 's/\^/,/g' ./FOOD_DES.txt \
+    && mv FOOD_DES.txt /seed \
+    && chmod 777 /seed/seed.sh \
+    && sed -i 's/\r//g' /seed/seed.sh
+
+VOLUME /seed
