@@ -1,0 +1,9 @@
+<p *ngIf="!error && (!state.descriptions || !state.descriptions.length)">
+  Loading descriptions ...
+</p>
+<p *ngIf="error">{{error}}</p>
+<div *ngIf="state.descriptions && state.descriptions.length">
+  <ul>
+    <li *ngFor="let desc of state.descriptions">{{desc.id}} &mdash; {{desc.name}}: {{desc.description}}
+  </ul>
+</div>

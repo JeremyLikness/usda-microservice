@@ -3,6 +3,7 @@ const {send} = require('micro'),
 
 module.exports = async (req, res) => {
     try {
+        res.setHeader('Access-Control-Allow-Origin', '*');
         let db = mongojs('db/usda', ['fooddescriptions']),
         results = db.fooddescriptions.find({}).toArray(function (err, docs) {
             if (err) {
