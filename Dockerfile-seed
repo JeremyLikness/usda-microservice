@@ -4,21 +4,19 @@ MAINTAINER Jeremy Likness <jeremy@jeremylikness.com>
 
 # update environment and ensure wget is there 
 RUN apt-get update \
-    && apt-get install -y wget
+    && apt-get install -y wget \
+    && mkdir -p /seed 
 
-RUN mkdir -p /seed 
+COPY ./seed.sh /seed/
 
-COPY ./seed.sh /seed
+COPY ./data/sr28.tar.gz /seed/
 
-# load the USDA data and clean it up so it can be parsed as a CSV 
-RUN wget https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/asc/FOOD_DES.txt 
+WORKDIR /seed 
 
-# change permissions and stage to mount
-RUN  chmod 777 /FOOD_DES.txt \
-    && sed -i 's/\~/\"/g' ./FOOD_DES.txt \
-    && sed -i 's/\^/,/g' ./FOOD_DES.txt \
-    && mv FOOD_DES.txt /seed \
-    && chmod 777 /seed/seed.sh \
-    && sed -i 's/\r//g' /seed/seed.sh
+RUN chmod 777 ./sr28.tar.gz \ 
+    && tar -xzvf ./sr28.tar.gz \
+    && chmod 777 ./seed.sh \
+    && sed -i 's/\r//g' ./seed.sh \
+    && rm ./sr28.tar.gz
 
 VOLUME /seed

@@ -1,3 +1,4 @@
+#!/bin/bash
 set -m
 
 cmd="mongod --httpinterface --rest --master"
@@ -12,6 +13,26 @@ while [[ RET -ne 0 ]]; do
     RET=$?
 done
 
-cat /seed/FOOD_DES.txt | mongoimport --db usda --collection fooddescriptions --fields "id,group-id,description,name,alias,manufacturer,survey,refuse,refuse-percentage,scientific-name,nitrogen-factor,protein-factor,fat-factor,carbohydrate-factor" --ignoreBlanks --type csv 
+files=("FOOD_DES.txt" \
+ "FD_GROUP.txt")
+collections=("fooddescriptions" \
+ "foodgroups")
+fields=("id,group-id,description,name,alias,manufacturer,survey,refuse,refuse-percentage,scientific-name,nitrogen-factor,protein-factor,fat-factor,carbohydrate-factor" \
+    "id,name")
+
+idx=0 
+
+for file in "${files[@]}" 
+do 
+
+sed -i 's/\~/\"/g' /seed/$file
+sed -i 's/\^/,/g' /seed/$file
+collection=${collections[idx]}
+field=${fields[idx]}
+cat /seed/$file | mongoimport --db usda --collection $collection --fields $field --ignoreBlanks --type csv
+
+idx=$(( $idx + 1 ))
+
+done
 
 fg
