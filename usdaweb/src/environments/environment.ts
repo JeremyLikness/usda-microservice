@@ -6,7 +6,7 @@
 export const environment = {
   production: false,
   configuration: [{
-    rebase: ['/descriptions', `http://localhost:3000/`],
-    truncate: true
+    rebase: ['/', `http://localhost:3000/`],
+    truncate: false
   }]
 };

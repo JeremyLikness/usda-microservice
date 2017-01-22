@@ -2,6 +2,7 @@
 
 import { TestBed, async } from '@angular/core/testing';
 import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { AppStateService } from './app-state.service';
 import { DescriptionsComponent } from './descriptions/descriptions.component';
@@ -14,7 +15,7 @@ describe('AppComponent', () => {
         AppComponent,
         DescriptionsComponent
       ], 
-      imports: [HttpModule],
+      imports: [HttpModule, FormsModule],
       providers: [Locator, AppStateService],
     });
     TestBed.compileComponents();

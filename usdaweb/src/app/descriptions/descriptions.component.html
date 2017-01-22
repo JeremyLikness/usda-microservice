@@ -1,8 +1,7 @@
-<p *ngIf="!error && (!state.descriptions || !state.descriptions.length)">
-  Loading descriptions ...
-</p>
 <p *ngIf="error">{{error}}</p>
-<div *ngIf="state.descriptions && state.descriptions.length">
+Group: <select [(ngModel)]="groupId"><option value="0">--ALL--</option><option *ngFor="let group of groups" [value]="group.id">{{group.name}}</option></select>
+Search: <input type="text" [ngModel]="search" (ngModelChange)="changed($event)" placeholder="Enter search text"/>
+<div *ngIf="descriptions && descriptions.length">
   <ul>
     <li *ngFor="let desc of state.descriptions">{{desc.id}} &mdash; {{desc.name}}: {{desc.description}}
   </ul>
