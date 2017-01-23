@@ -42,7 +42,7 @@ module.exports = async (req, res) => {
         }
         results = db.fooddescriptions.find(find).toArray(function (err, docs) {
             if (err) {
-                throw err;docker
+                throw err;
             }
             console.log(`descriptions: ${docs.length} documents found.`);
             send(res, 200, docs);
