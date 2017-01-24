@@ -43,7 +43,7 @@ This container is solely based on the standard [mongo](https://hub.docker.com/_/
 
 This is a Node project that uses the [micro](https://github.com/zeit/micro) package to stand up two endpoints. The `/groups` path will serve the list of food groups, and any other path will serve a list of food descriptions. Passing the `groupId` and/or `search` parameters will filter the list. 
 
-This is an interesting container because it uses a special "on build" image from Node. This will automatically leverage the Node project, run npm install for dependencies, and create a conainer with the bare minimum set of services required to run the Node project, which in this case is our microservice. 
+This is an interesting container because it uses a special "on build" image from Node. This will automatically leverage the Node project, run npm install for dependencies, and create a container with the bare minimum set of services required to run the Node project, which in this case is our microservice. 
 
 ### Nutrients 
 
