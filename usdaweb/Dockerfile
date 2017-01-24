@@ -27,5 +27,3 @@ WORKDIR /src
 # build and expose the result 
 RUN npm i 
 RUN ng build --prod --aot 
-
-VOLUME /src/dist

@@ -4,8 +4,6 @@ services:
         build: 
             context: .
             dockerfile: Dockerfile-seed
-        volumes:
-            - /seed
     db:
         image: mongo
         volumes_from: 
@@ -19,14 +17,15 @@ services:
             - "3000:3000"
     ngbuild:
         build: ./usdaweb 
+        volumes:
+            - ng2:/src/dist
     web:
-        build: 
-            context: . 
-            dockerfile: Dockerfile-web
-        volumes_from:
-            - ngbuild 
+        image: nginx 
+        volumes:
+            - ng2:/usr/share/nginx/html
         ports:
             - "80:80"
         depends_on:
-            - ngbuild
             - descriptions
+volumes:
+    ng2: {}
