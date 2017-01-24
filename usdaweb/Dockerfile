@@ -2,6 +2,9 @@ FROM ubuntu:16.04
 
 MAINTAINER Jeremy Likness <jeremy@jeremylikness.com>
 
+# Set up a Node environment with the Angular CLI to build a 
+# production-ready Angular image with ahead-of-time compilation
+
 # switch to Bash 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 

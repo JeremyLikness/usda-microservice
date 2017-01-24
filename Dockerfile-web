@@ -1,3 +1,10 @@
 FROM nginx 
-RUN cp -a /src/dist/ /src/dist /usr/share/nginx/html/ 
+
+MAINTAINER Jeremy Likness <jeremy@jeremylikness.com>
+
+# take output from an Angular 2 CLI build and move it into
+# a static nginx server 
+
+RUN cp -a /src/dist/ /src/dist /usr/share/nginx/html/ \
+    && rm -rf /src/dist
 EXPOSE 80/tcp
