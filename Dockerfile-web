@@ -1,0 +1,3 @@
+FROM nginx 
+RUN cp -a /src/dist/ /src/dist /usr/share/nginx/html/ 
+EXPOSE 80/tcp

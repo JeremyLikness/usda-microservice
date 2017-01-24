@@ -17,9 +17,16 @@ services:
             - db
         ports:
             - "3000:3000"
-    web:
+    ngbuild:
         build: ./usdaweb 
+    web:
+        build: 
+            context: . 
+            dockerfile: Dockerfile-web
+        volumes_from:
+            - ngbuild 
         ports:
             - "80:80"
         depends_on:
+            - ngbuild
             - descriptions

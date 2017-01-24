@@ -7,13 +7,11 @@ This is a simple example of building an environment with Docker for micro-servic
 
 The app is designed to use specific, user-friendly paths for endpoints like `/descriptions` or `/groups` and then the locator service maps them to actual domains, ports, and sub-paths as needed. 
 
-After you install the pre-requisites, you should be able to get up and running in just a few minutes if not seconds using the provided scripts. This demonstrates the power of using containers for development: you can start working with a full project including a populated database, active web service, and functional website in a very short period of time.
+After you install the pre-requisites (Docker), you should be able to get up and running in just a few minutes if not seconds using the provided scripts. This demonstrates the power of using containers for development: you can start working with a full project including a populated database, active web service, and functional website in a very short period of time.
 
 ## Prerequisites
 
 1. [Docker](https://www.docker.com/)
-2. [Node.js](https://nodejs.org/)
-3. The Angular CLI: `npm i -g angular-cli` 
 
 ## Clone 
 
@@ -21,7 +19,9 @@ After you install the pre-requisites, you should be able to get up and running i
 
 ## Quick Start 
 
-Once you have the prerequisites installed and the project cloned, set the root of the project (usda-microservices) as your working directory and run `buildrun` (Windows) or `./buildrun.sh` (Bash shell).
+Once you have the prerequisites installed and the project cloned, one command will do everything you need including building and standing up the services and website: 
+
+`docker-compose up`
 
 When you see the console indicate everything has been built and is ready, navigate to [http://localhost](http://localhost). 
 
@@ -49,9 +49,13 @@ This is an interesting container because it uses a special "on build" image from
 
 (To Be Developed) 
 
+### Ngbuild 
+
+This is another throwaway image. It sets up a Node 6.x environment, installs the Angular 2 CLI, copies the source for the web app, builds it, then exposes the output as a volume for mounting by the `Web` image.
+
 ### Web 
 
-The web image is an [Angular 2](https://angular.io) website. Node is used to build the project with ahead-of-time compilation for a lightweight and fast payload. When the project is built, the `Dockerfile` starts with the base [nginx](https://hub.docker.com/_/nginx/) image, copies the static files generated for the Angular 2 project using [Webpack](https://github.com/webpack/webpack) and exposes the default HTTP port. 
+The web image is an [Angular 2](https://angular.io) website. Node is used in the `ngbuild` image to build the project with ahead-of-time compilation for a lightweight and fast payload. When the project is built, the `Dockerfile` starts with the base [nginx](https://hub.docker.com/_/nginx/) image, copies the static files generated for the Angular 2 project using [Webpack](https://github.com/webpack/webpack) and exposes the default HTTP port. 
 
 You can type text to filter results and/or restrict it to a group (the text filter requires a minimum of 3 characters if a group is not selected).
 
