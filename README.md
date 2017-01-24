@@ -55,7 +55,7 @@ This is another throwaway image. It sets up a Node 6.x environment, installs the
 
 ### Web 
 
-The web image is an [Angular 2](https://angular.io) website. Node is used in the `ngbuild` image to build the project with ahead-of-time compilation for a lightweight and fast payload. When the project is built, the `Dockerfile` starts with the base [nginx](https://hub.docker.com/_/nginx/) image, copies the static files generated for the Angular 2 project using [Webpack](https://github.com/webpack/webpack) and exposes the default HTTP port. 
+The web image is an [Angular 2](https://angular.io) website. Node is used in the `ngbuild` image to build the project with ahead-of-time compilation for a lightweight and fast payload. When the project is built, the `Dockerfile` starts with the base [nginx](https://hub.docker.com/_/nginx/) image, maps the static files generated for the Angular 2 project using [Webpack](https://github.com/webpack/webpack) and exposes the default HTTP port. 
 
 You can type text to filter results and/or restrict it to a group (the text filter requires a minimum of 3 characters if a group is not selected).
 
