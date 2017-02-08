@@ -21,7 +21,35 @@ module.exports = async (req, res) => {
                 }
                 console.log(`nutrients: found food item with id ${id}`);
                 result.description = docs.length ? docs[0] : {};
-                send(res, 200, result);
+                db.weight.find({
+                    "food-id": {
+                       $eq: id
+                    }
+                }).toArray(function (err, docs) {
+                    if (err) {
+                        throw err; 
+                    }
+                    console.log(`nutrients: found ${docs.length} weight entries for id ${id}`);
+                    result.weights = docs;
+                    db.nutrientdata.aggregate([
+                        { "$match": { "food-id" : id } },
+                        { 
+                            "$lookup": {
+                                "from" : "nutrientdefinitions",
+                                "localField" : "nutrient-id",
+                                "foreignField" : "id",
+                                "as" : "definition"
+                            }
+                        }
+                    ]).toArray(function (err, docs) { 
+                        if (err) {
+                            throw err;
+                        }
+                        console.log(`nutrients: found ${docs.length} nutrient definitions for id ${id}`);
+                        result.nutrients = docs;
+                        send(res, 200, result);
+                    });
+                });
             });        
         }
         else {
