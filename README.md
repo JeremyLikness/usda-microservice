@@ -47,7 +47,9 @@ This is an interesting container because it uses a special "on build" image from
 
 ### Nutrients 
 
-(To Be Developed) 
+This is a Node project that uses the [micro](https://github.com/zeit/micro) package to stand up a single endpoint. The `/id` path will serve the description, weights, and nutrients for a food item with id being the food item id.
+
+Note the use of aggregate to "join" in the solution. The description and weights are fetched separately, but the nutrient data and information is a table join. 
 
 ### Ngbuild 
 
