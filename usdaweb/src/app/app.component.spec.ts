@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { AppStateService } from './app-state.service';
 import { DescriptionsComponent } from './descriptions/descriptions.component';
+import { NutrientsComponent } from './nutrients/nutrients.component';
 import { Locator } from 'micro-locator';
 
 describe('AppComponent', () => {
@@ -13,7 +14,8 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        DescriptionsComponent
+        DescriptionsComponent,
+        NutrientsComponent
       ], 
       imports: [HttpModule, FormsModule],
       providers: [Locator, AppStateService],

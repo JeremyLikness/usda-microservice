@@ -1,0 +1,8 @@
+<div *ngIf="error">{{error}}</div>
+<div *ngIf="!error && id && nutrientInfo">
+  <h2>{{nutrientInfo.description.description}}</h2>
+  Choose Measure: <select [(ngModel)]="gramWeight"><option *ngFor="let weight of nutrientInfo.weights; let i = index" [selected]="i === 0" [value]="weight['gram-weight']">{{weight.amount}} {{weight.description}}</option></select>
+  <div class="nutrient" *ngFor="let nutrient of nutrientInfo.nutrients">
+    {{nutrient.definition[0].description}}: {{nutrient['hundred-grams']*(gramWeight/100.0) | number:'1.2-2'}} {{nutrient.definition[0].uom}}
+  </div>
+</div>

@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { DescriptionsComponent } from './descriptions/descriptions.component';
 
 import { AppStateService } from './app-state.service';
+import { NutrientsComponent } from './nutrients/nutrients.component';
 
 
 export function LocatorFactory() {
@@ -21,6 +22,7 @@ export function LocatorFactory() {
   declarations: [
     AppComponent,
     DescriptionsComponent,
+    NutrientsComponent,
   ],
   imports: [
     BrowserModule,

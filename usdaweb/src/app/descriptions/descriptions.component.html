@@ -3,6 +3,6 @@ Group: <select [(ngModel)]="groupId"><option value="0">--ALL--</option><option *
 Search: <input type="text" [ngModel]="search" (ngModelChange)="changed($event)" placeholder="Enter search text"/>
 <div *ngIf="descriptions && descriptions.length">
   <ul>
-    <li *ngFor="let desc of state.descriptions">{{desc.id}} &mdash; {{desc.name}}: {{desc.description}}
+    <li *ngFor="let desc of state.descriptions"><button (click)="getInfo(desc.id)">Info</button> {{desc.id}} &mdash; {{desc.name}}: {{desc.description}}
   </ul>
 </div>

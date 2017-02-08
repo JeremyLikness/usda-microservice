@@ -75,6 +75,10 @@ export class DescriptionsComponent implements OnInit {
     }, err => this.error = err);
   }
 
+  public getInfo(id: number) {
+    this.state.updateFoodId(id);
+  }
+
   ngOnInit() {
     if (this.groups.length < 1) {
       this.http.get(this.endpointGroups).subscribe(res => {

@@ -22,11 +22,20 @@ export class AppStateService implements IAppData {
   public onChanges: EventEmitter<IAppData>;
   public descriptions: IDescription[];
   public groups: IGroup[];
+  public foodId: number;
 
   constructor() {
     this.descriptions = [];
     this.groups = [];
+    this.foodId = 0;
     this.onChanges = new EventEmitter<IAppData>();
+   }
+
+   public updateFoodId(id: number) {
+     if (id !== this.foodId) {
+       this.foodId = id;
+       this.onChanges.emit(this);
+     }
    }
 
    public updateDescriptions(descriptions: IDescription[]) {

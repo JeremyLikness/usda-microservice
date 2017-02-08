@@ -1,0 +1,3455 @@
+{
+    "description": {
+        "_id": "589b40ec465f2a18132b46d2",
+        "id": 1002,
+        "group-id": 100,
+        "description": "Butter, whipped, with salt",
+        "name": "BUTTER,WHIPPED,W/ SALT",
+        "survey": "Y",
+        "refuse-percentage": 0,
+        "nitrogen-factor": 6.38
+    },
+    "weights": [
+        {
+            "_id": "589b4101465f2a181335c921",
+            "food-id": 1002,
+            "sequence": 1,
+            "amount": 1,
+            "description": "pat (1 sq, 1/3 high)",
+            "gram-weight": 3.8
+        },
+        {
+            "_id": "589b4101465f2a181335c922",
+            "food-id": 1002,
+            "sequence": 2,
+            "amount": 1,
+            "description": "tbsp",
+            "gram-weight": 9.4
+        },
+        {
+            "_id": "589b4101465f2a181335c923",
+            "food-id": 1002,
+            "sequence": 3,
+            "amount": 1,
+            "description": "cup",
+            "gram-weight": 151
+        },
+        {
+            "_id": "589b4101465f2a181335c924",
+            "food-id": 1002,
+            "sequence": 4,
+            "amount": 1,
+            "description": "stick",
+            "gram-weight": 76
+        }
+    ],
+    "nutrients": [
+        {
+            "_id": "589b40f3465f2a18132b69c4",
+            "food-id": 1002,
+            "nutrient-id": 203,
+            "hundred-grams": 0.49,
+            "data-points": 9,
+            "std-error": 0.008,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.45,
+            "max": 0.57,
+            "degrees-freedom": 2,
+            "low-error": 0.456,
+            "high-error": 0.525,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c882",
+                    "id": 203,
+                    "uom": "g",
+                    "tag": "PROCNT",
+                    "description": "Protein",
+                    "round": 2,
+                    "order": 600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69c5",
+            "food-id": 1002,
+            "nutrient-id": 204,
+            "hundred-grams": 78.3,
+            "data-points": 9,
+            "std-error": 0.228,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 76.85,
+            "max": 80.41,
+            "degrees-freedom": 5,
+            "low-error": 77.703,
+            "high-error": 78.889,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c883",
+                    "id": 204,
+                    "uom": "g",
+                    "tag": "FAT",
+                    "description": "Total lipid (fat)",
+                    "round": 2,
+                    "order": 800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69c6",
+            "food-id": 1002,
+            "nutrient-id": 205,
+            "hundred-grams": 2.87,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c884",
+                    "id": 205,
+                    "uom": "g",
+                    "tag": "CHOCDF",
+                    "description": "Carbohydrate, by difference",
+                    "round": 2,
+                    "order": 1100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69c7",
+            "food-id": 1002,
+            "nutrient-id": 207,
+            "hundred-grams": 1.62,
+            "data-points": 9,
+            "std-error": 0.026,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 1.47,
+            "max": 1.75,
+            "degrees-freedom": 6,
+            "low-error": 1.557,
+            "high-error": 1.683,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c885",
+                    "id": 207,
+                    "uom": "g",
+                    "tag": "ASH",
+                    "description": "Ash",
+                    "round": 2,
+                    "order": 1000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69c8",
+            "food-id": 1002,
+            "nutrient-id": 208,
+            "hundred-grams": 718,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c886",
+                    "id": 208,
+                    "uom": "kcal",
+                    "tag": "ENERC_KCAL",
+                    "description": "Energy",
+                    "round": 0,
+                    "order": 300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69c9",
+            "food-id": 1002,
+            "nutrient-id": 221,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 7,
+            "add-date": "04/1985",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c88d",
+                    "id": 221,
+                    "uom": "g",
+                    "tag": "ALC",
+                    "description": "Alcohol, ethyl",
+                    "round": 1,
+                    "order": 18200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69ca",
+            "food-id": 1002,
+            "nutrient-id": 255,
+            "hundred-grams": 16.72,
+            "data-points": 9,
+            "std-error": 0.053,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 16.36,
+            "max": 17.06,
+            "degrees-freedom": 2,
+            "low-error": 16.464,
+            "high-error": 16.979,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c88e",
+                    "id": 255,
+                    "uom": "g",
+                    "tag": "WATER",
+                    "description": "Water",
+                    "round": 2,
+                    "order": 100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69cb",
+            "food-id": 1002,
+            "nutrient-id": 262,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 7,
+            "derivation-code": "Z",
+            "add-date": "01/2003",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c890",
+                    "id": 262,
+                    "uom": "mg",
+                    "tag": "CAFFN",
+                    "description": "Caffeine",
+                    "round": 0,
+                    "order": 18300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69cc",
+            "food-id": 1002,
+            "nutrient-id": 263,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 7,
+            "derivation-code": "Z",
+            "add-date": "01/2003",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c891",
+                    "id": 263,
+                    "uom": "mg",
+                    "tag": "THEBRN",
+                    "description": "Theobromine",
+                    "round": 0,
+                    "order": 18400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69cd",
+            "food-id": 1002,
+            "nutrient-id": 268,
+            "hundred-grams": 3005,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c892",
+                    "id": 268,
+                    "uom": "kJ",
+                    "tag": "ENERC_KJ",
+                    "description": "Energy",
+                    "round": 0,
+                    "order": 400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69ce",
+            "food-id": 1002,
+            "nutrient-id": 269,
+            "hundred-grams": 0.06,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NR",
+            "add-date": "01/2003",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c893",
+                    "id": 269,
+                    "uom": "g",
+                    "tag": "SUGAR",
+                    "description": "Sugars, total",
+                    "round": 2,
+                    "order": 1500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69cf",
+            "food-id": 1002,
+            "nutrient-id": 291,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 7,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c895",
+                    "id": 291,
+                    "uom": "g",
+                    "tag": "FIBTG",
+                    "description": "Fiber, total dietary",
+                    "round": 1,
+                    "order": 1200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d0",
+            "food-id": 1002,
+            "nutrient-id": 301,
+            "hundred-grams": 23,
+            "data-points": 9,
+            "std-error": 0.362,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 21,
+            "max": 26,
+            "degrees-freedom": 1,
+            "low-error": 20.349,
+            "high-error": 24.98,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c896",
+                    "id": 301,
+                    "uom": "mg",
+                    "tag": "CA",
+                    "description": "Calcium, Ca",
+                    "round": 0,
+                    "order": 5300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d1",
+            "food-id": 1002,
+            "nutrient-id": 303,
+            "hundred-grams": 0.05,
+            "data-points": 8,
+            "std-error": 0.003,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.04,
+            "max": 0.06,
+            "degrees-freedom": 5,
+            "low-error": 0.039,
+            "high-error": 0.053,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c897",
+                    "id": 303,
+                    "uom": "mg",
+                    "tag": "FE",
+                    "description": "Iron, Fe",
+                    "round": 2,
+                    "order": 5400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d2",
+            "food-id": 1002,
+            "nutrient-id": 304,
+            "hundred-grams": 1,
+            "data-points": 9,
+            "std-error": 0.022,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 1,
+            "max": 2,
+            "degrees-freedom": 6,
+            "low-error": 1.376,
+            "high-error": 1.483,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c898",
+                    "id": 304,
+                    "uom": "mg",
+                    "tag": "MG",
+                    "description": "Magnesium, Mg",
+                    "round": 0,
+                    "order": 5500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d3",
+            "food-id": 1002,
+            "nutrient-id": 305,
+            "hundred-grams": 24,
+            "data-points": 9,
+            "std-error": 0.252,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 23,
+            "max": 26,
+            "degrees-freedom": 1,
+            "low-error": 21.156,
+            "high-error": 26.091,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c899",
+                    "id": 305,
+                    "uom": "mg",
+                    "tag": "P",
+                    "description": "Phosphorus, P",
+                    "round": 0,
+                    "order": 5600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d4",
+            "food-id": 1002,
+            "nutrient-id": 306,
+            "hundred-grams": 41,
+            "data-points": 9,
+            "std-error": 1.498,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 23,
+            "max": 57,
+            "degrees-freedom": 5,
+            "low-error": 37.538,
+            "high-error": 45.089,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c89a",
+                    "id": 306,
+                    "uom": "mg",
+                    "tag": "K",
+                    "description": "Potassium, K",
+                    "round": 0,
+                    "order": 5700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d5",
+            "food-id": 1002,
+            "nutrient-id": 307,
+            "hundred-grams": 583,
+            "data-points": 9,
+            "std-error": 8.719,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 544,
+            "max": 640,
+            "degrees-freedom": 6,
+            "low-error": 561.412,
+            "high-error": 604.35,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c89b",
+                    "id": 307,
+                    "uom": "mg",
+                    "tag": "NA",
+                    "description": "Sodium, Na",
+                    "round": 0,
+                    "order": 5800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d6",
+            "food-id": 1002,
+            "nutrient-id": 309,
+            "hundred-grams": 0.05,
+            "data-points": 9,
+            "std-error": 0.002,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.04,
+            "max": 0.06,
+            "degrees-freedom": 6,
+            "low-error": 0.042,
+            "high-error": 0.052,
+            "comments": "2, 3",
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c89c",
+                    "id": 309,
+                    "uom": "mg",
+                    "tag": "ZN",
+                    "description": "Zinc, Zn",
+                    "round": 2,
+                    "order": 5900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d7",
+            "food-id": 1002,
+            "nutrient-id": 312,
+            "hundred-grams": 0.01,
+            "data-points": 9,
+            "std-error": 0.001,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.009,
+            "max": 0.016,
+            "degrees-freedom": 3,
+            "low-error": 0.008,
+            "high-error": 0.012,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c89d",
+                    "id": 312,
+                    "uom": "mg",
+                    "tag": "CU",
+                    "description": "Copper, Cu",
+                    "round": 3,
+                    "order": 6000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d8",
+            "food-id": 1002,
+            "nutrient-id": 313,
+            "hundred-grams": 2.8,
+            "data-points": 19,
+            "std-error": 0.674,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 3,
+            "min": 1.5,
+            "max": 3.8,
+            "degrees-freedom": 2,
+            "low-error": -0.134,
+            "high-error": 5.667,
+            "comments": 4,
+            "add-date": "03/2006",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c89e",
+                    "id": 313,
+                    "uom": "ï¿½g",
+                    "tag": "FLD",
+                    "description": "Fluoride, F",
+                    "round": 1,
+                    "order": 6240
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69d9",
+            "food-id": 1002,
+            "nutrient-id": 315,
+            "hundred-grams": 0.001,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.001,
+            "max": 0.001,
+            "degrees-freedom": 3,
+            "low-error": 0.001,
+            "high-error": 0.001,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c89f",
+                    "id": 315,
+                    "uom": "mg",
+                    "tag": "MN",
+                    "description": "Manganese, Mn",
+                    "round": 3,
+                    "order": 6100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69da",
+            "food-id": 1002,
+            "nutrient-id": 317,
+            "hundred-grams": 0,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a0",
+                    "id": 317,
+                    "uom": "ï¿½g",
+                    "tag": "SE",
+                    "description": "Selenium, Se",
+                    "round": 1,
+                    "order": 6200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69db",
+            "food-id": 1002,
+            "nutrient-id": 318,
+            "hundred-grams": 2468,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "AS",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a1",
+                    "id": 318,
+                    "uom": "IU",
+                    "tag": "VITA_IU",
+                    "description": "Vitamin A, IU",
+                    "round": 0,
+                    "order": 7500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69dc",
+            "food-id": 1002,
+            "nutrient-id": 319,
+            "hundred-grams": 671,
+            "data-points": 4,
+            "std-error": 20.908,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 641,
+            "max": 737,
+            "degrees-freedom": 2,
+            "low-error": 580.955,
+            "high-error": 761.137,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a2",
+                    "id": 319,
+                    "uom": "ï¿½g",
+                    "tag": "RETOL",
+                    "description": "Retinol",
+                    "round": 0,
+                    "order": 7430
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69dd",
+            "food-id": 1002,
+            "nutrient-id": 320,
+            "hundred-grams": 683,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "AS",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a3",
+                    "id": 320,
+                    "uom": "ï¿½g",
+                    "tag": "VITA_RAE",
+                    "description": "Vitamin A, RAE",
+                    "round": 0,
+                    "order": 7420
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69de",
+            "food-id": 1002,
+            "nutrient-id": 321,
+            "hundred-grams": 135,
+            "data-points": 4,
+            "std-error": 8.55,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 120,
+            "max": 171,
+            "degrees-freedom": 1,
+            "low-error": 66.879,
+            "high-error": 202.968,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a4",
+                    "id": 321,
+                    "uom": "ï¿½g",
+                    "tag": "CARTB",
+                    "description": "Carotene, beta",
+                    "round": 0,
+                    "order": 7440
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69df",
+            "food-id": 1002,
+            "nutrient-id": 322,
+            "hundred-grams": 1,
+            "data-points": 4,
+            "std-error": 0.718,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 3,
+            "degrees-freedom": 1,
+            "low-error": -5.219,
+            "high-error": 8.113,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a5",
+                    "id": 322,
+                    "uom": "ï¿½g",
+                    "tag": "CARTA",
+                    "description": "Carotene, alpha",
+                    "round": 0,
+                    "order": 7450
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e0",
+            "food-id": 1002,
+            "nutrient-id": 323,
+            "hundred-grams": 1.37,
+            "data-points": 6,
+            "std-error": 0.101,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 1.03,
+            "max": 1.73,
+            "degrees-freedom": 2,
+            "low-error": 0.964,
+            "high-error": 1.773,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a6",
+                    "id": 323,
+                    "uom": "mg",
+                    "tag": "TOCPHA",
+                    "description": "Vitamin E (alpha-tocopherol)",
+                    "round": 2,
+                    "order": 7900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e1",
+            "food-id": 1002,
+            "nutrient-id": 324,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 7,
+            "derivation-code": "Z",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a7",
+                    "id": 324,
+                    "uom": "IU",
+                    "tag": "VITD",
+                    "description": "Vitamin D",
+                    "round": 0,
+                    "order": 8750
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e2",
+            "food-id": 1002,
+            "nutrient-id": 325,
+            "hundred-grams": 0,
+            "data-points": 2,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": 1,
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a8",
+                    "id": 325,
+                    "uom": "ï¿½g",
+                    "tag": "ERGCAL",
+                    "description": "Vitamin D2 (ergocalciferol)",
+                    "round": 1,
+                    "order": 8710
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e3",
+            "food-id": 1002,
+            "nutrient-id": 326,
+            "hundred-grams": 0,
+            "data-points": 2,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": 1,
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8a9",
+                    "id": 326,
+                    "uom": "ï¿½g",
+                    "tag": "CHOCAL",
+                    "description": "Vitamin D3 (cholecalciferol)",
+                    "round": 1,
+                    "order": 8720
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e4",
+            "food-id": 1002,
+            "nutrient-id": 328,
+            "hundred-grams": 0,
+            "data-points": 2,
+            "code": 1,
+            "derivation-code": "AS",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8aa",
+                    "id": 328,
+                    "uom": "ï¿½g",
+                    "tag": "VITD",
+                    "description": "Vitamin D (D2 + D3)",
+                    "round": 1,
+                    "order": 8700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e5",
+            "food-id": 1002,
+            "nutrient-id": 334,
+            "hundred-grams": 6,
+            "data-points": 4,
+            "std-error": 0.658,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 4,
+            "max": 7,
+            "degrees-freedom": 2,
+            "low-error": 3.166,
+            "high-error": 8.96,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ab",
+                    "id": 334,
+                    "uom": "ï¿½g",
+                    "tag": "CRYPX",
+                    "description": "Cryptoxanthin, beta",
+                    "round": 0,
+                    "order": 7460
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e6",
+            "food-id": 1002,
+            "nutrient-id": 337,
+            "hundred-grams": 0,
+            "data-points": 4,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ac",
+                    "id": 337,
+                    "uom": "ï¿½g",
+                    "tag": "LYCPN",
+                    "description": "Lycopene",
+                    "round": 0,
+                    "order": 7530
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e7",
+            "food-id": 1002,
+            "nutrient-id": 338,
+            "hundred-grams": 13,
+            "data-points": 4,
+            "std-error": 1.954,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 10,
+            "max": 16,
+            "degrees-freedom": 1,
+            "low-error": -0.213,
+            "high-error": 26.23,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ad",
+                    "id": 338,
+                    "uom": "ï¿½g",
+                    "tag": "LUT+ZEA",
+                    "description": "Lutein + zeaxanthin",
+                    "round": 0,
+                    "order": 7560
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e8",
+            "food-id": 1002,
+            "nutrient-id": 341,
+            "hundred-grams": 0.07,
+            "data-points": 6,
+            "std-error": 0.008,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.04,
+            "max": 0.13,
+            "degrees-freedom": 2,
+            "low-error": 0.041,
+            "high-error": 0.108,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ae",
+                    "id": 341,
+                    "uom": "mg",
+                    "tag": "TOCPHB",
+                    "description": "Tocopherol, beta",
+                    "round": 2,
+                    "order": 8000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69e9",
+            "food-id": 1002,
+            "nutrient-id": 342,
+            "hundred-grams": 0.08,
+            "data-points": 6,
+            "std-error": 0.028,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0.18,
+            "degrees-freedom": 3,
+            "low-error": -0.016,
+            "high-error": 0.169,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8af",
+                    "id": 342,
+                    "uom": "mg",
+                    "tag": "TOCPHG",
+                    "description": "Tocopherol, gamma",
+                    "round": 2,
+                    "order": 8100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69ea",
+            "food-id": 1002,
+            "nutrient-id": 343,
+            "hundred-grams": 0,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b0",
+                    "id": 343,
+                    "uom": "mg",
+                    "tag": "TOCPHD",
+                    "description": "Tocopherol, delta",
+                    "round": 2,
+                    "order": 8200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69eb",
+            "food-id": 1002,
+            "nutrient-id": 344,
+            "hundred-grams": 0.12,
+            "data-points": 6,
+            "std-error": 0.014,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.07,
+            "max": 0.16,
+            "degrees-freedom": 3,
+            "low-error": 0.074,
+            "high-error": 0.163,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b1",
+                    "id": 344,
+                    "uom": "mg",
+                    "tag": "TOCTRA",
+                    "description": "Tocotrienol, alpha",
+                    "round": 2,
+                    "order": 8300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69ec",
+            "food-id": 1002,
+            "nutrient-id": 345,
+            "hundred-grams": 0,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b2",
+                    "id": 345,
+                    "uom": "mg",
+                    "tag": "TOCTRB",
+                    "description": "Tocotrienol, beta",
+                    "round": 2,
+                    "order": 8400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69ed",
+            "food-id": 1002,
+            "nutrient-id": 346,
+            "hundred-grams": 0,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b3",
+                    "id": 346,
+                    "uom": "mg",
+                    "tag": "TOCTRG",
+                    "description": "Tocotrienol, gamma",
+                    "round": 2,
+                    "order": 8500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69ee",
+            "food-id": 1002,
+            "nutrient-id": 347,
+            "hundred-grams": 0,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b4",
+                    "id": 347,
+                    "uom": "mg",
+                    "tag": "TOCTRD",
+                    "description": "Tocotrienol, delta",
+                    "round": 2,
+                    "order": 8600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69ef",
+            "food-id": 1002,
+            "nutrient-id": 401,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 1,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b5",
+                    "id": 401,
+                    "uom": "mg",
+                    "tag": "VITC",
+                    "description": "Vitamin C, total ascorbic acid",
+                    "round": 1,
+                    "order": 6300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f0",
+            "food-id": 1002,
+            "nutrient-id": 404,
+            "hundred-grams": 0.007,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.007,
+            "max": 0.007,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b6",
+                    "id": 404,
+                    "uom": "mg",
+                    "tag": "THIA",
+                    "description": "Thiamin",
+                    "round": 3,
+                    "order": 6400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f1",
+            "food-id": 1002,
+            "nutrient-id": 405,
+            "hundred-grams": 0.064,
+            "data-points": 6,
+            "std-error": 0.019,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.04,
+            "max": 0.15,
+            "degrees-freedom": 3,
+            "low-error": 0.001,
+            "high-error": 0.128,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b7",
+                    "id": 405,
+                    "uom": "mg",
+                    "tag": "RIBF",
+                    "description": "Riboflavin",
+                    "round": 3,
+                    "order": 6500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f2",
+            "food-id": 1002,
+            "nutrient-id": 406,
+            "hundred-grams": 0.022,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.022,
+            "max": 0.022,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b8",
+                    "id": 406,
+                    "uom": "mg",
+                    "tag": "NIA",
+                    "description": "Niacin",
+                    "round": 3,
+                    "order": 6600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f3",
+            "food-id": 1002,
+            "nutrient-id": 410,
+            "hundred-grams": 0.097,
+            "data-points": 4,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.09,
+            "max": 0.1,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8b9",
+                    "id": 410,
+                    "uom": "mg",
+                    "tag": "PANTAC",
+                    "description": "Pantothenic acid",
+                    "round": 3,
+                    "order": 6700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f4",
+            "food-id": 1002,
+            "nutrient-id": 415,
+            "hundred-grams": 0.008,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.007,
+            "max": 0.01,
+            "degrees-freedom": 1,
+            "low-error": 0.004,
+            "high-error": 0.012,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ba",
+                    "id": 415,
+                    "uom": "mg",
+                    "tag": "VITB6A",
+                    "description": "Vitamin B-6",
+                    "round": 3,
+                    "order": 6800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f5",
+            "food-id": 1002,
+            "nutrient-id": 417,
+            "hundred-grams": 4,
+            "data-points": 2,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 4,
+            "max": 4,
+            "comments": 1,
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8bb",
+                    "id": 417,
+                    "uom": "ï¿½g",
+                    "tag": "FOL",
+                    "description": "Folate, total",
+                    "round": 0,
+                    "order": 6900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f6",
+            "food-id": 1002,
+            "nutrient-id": 418,
+            "hundred-grams": 0.07,
+            "data-points": 6,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.07,
+            "max": 0.07,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8bc",
+                    "id": 418,
+                    "uom": "ï¿½g",
+                    "tag": "VITB12",
+                    "description": "Vitamin B-12",
+                    "round": 2,
+                    "order": 7300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f7",
+            "food-id": 1002,
+            "nutrient-id": 421,
+            "hundred-grams": 18.8,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "AS",
+            "add-date": "12/2006",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8bd",
+                    "id": 421,
+                    "uom": "mg",
+                    "tag": "CHOLN",
+                    "description": "Choline, total",
+                    "round": 1,
+                    "order": 7220
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f8",
+            "food-id": 1002,
+            "nutrient-id": 428,
+            "hundred-grams": 20.9,
+            "data-points": 4,
+            "std-error": 0.453,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 19.3,
+            "max": 22,
+            "degrees-freedom": 1,
+            "low-error": 17.222,
+            "high-error": 24.587,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8be",
+                    "id": 428,
+                    "uom": "ï¿½g",
+                    "tag": "MK4",
+                    "description": "Menaquinone-4",
+                    "round": 1,
+                    "order": 8950
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69f9",
+            "food-id": 1002,
+            "nutrient-id": 429,
+            "hundred-grams": 0,
+            "data-points": 4,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8bf",
+                    "id": 429,
+                    "uom": "ï¿½g",
+                    "tag": "VITK1D",
+                    "description": "Dihydrophylloquinone",
+                    "round": 1,
+                    "order": 8900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69fa",
+            "food-id": 1002,
+            "nutrient-id": 430,
+            "hundred-grams": 4.6,
+            "data-points": 4,
+            "std-error": 0.024,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 4.5,
+            "max": 4.8,
+            "degrees-freedom": 1,
+            "low-error": 4.254,
+            "high-error": 4.856,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c0",
+                    "id": 430,
+                    "uom": "ï¿½g",
+                    "tag": "VITK1",
+                    "description": "Vitamin K (phylloquinone)",
+                    "round": 1,
+                    "order": 8800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69fb",
+            "food-id": 1002,
+            "nutrient-id": 431,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 7,
+            "derivation-code": "Z",
+            "add-date": "01/2001",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c1",
+                    "id": 431,
+                    "uom": "ï¿½g",
+                    "tag": "FOLAC",
+                    "description": "Folic acid",
+                    "round": 0,
+                    "order": 7000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69fc",
+            "food-id": 1002,
+            "nutrient-id": 432,
+            "hundred-grams": 4,
+            "data-points": 2,
+            "code": 1,
+            "derivation-code": "A",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c2",
+                    "id": 432,
+                    "uom": "ï¿½g",
+                    "tag": "FOLFD",
+                    "description": "Folate, food",
+                    "round": 0,
+                    "order": 7100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69fd",
+            "food-id": 1002,
+            "nutrient-id": 435,
+            "hundred-grams": 4,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c3",
+                    "id": 435,
+                    "uom": "ï¿½g",
+                    "tag": "FOLDFE",
+                    "description": "Folate, DFE",
+                    "round": 0,
+                    "order": 7200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69fe",
+            "food-id": 1002,
+            "nutrient-id": 454,
+            "hundred-grams": 0.3,
+            "data-points": 1,
+            "code": 1,
+            "derivation-code": "A",
+            "add-date": "12/2006",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c4",
+                    "id": 454,
+                    "uom": "mg",
+                    "tag": "BETN",
+                    "description": "Betaine",
+                    "round": 1,
+                    "order": 7270
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b69ff",
+            "food-id": 1002,
+            "nutrient-id": 501,
+            "hundred-grams": 0.012,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c5",
+                    "id": 501,
+                    "uom": "g",
+                    "tag": "TRP_G",
+                    "description": "Tryptophan",
+                    "round": 3,
+                    "order": 16300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a00",
+            "food-id": 1002,
+            "nutrient-id": 502,
+            "hundred-grams": 0.038,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c6",
+                    "id": 502,
+                    "uom": "g",
+                    "tag": "THR_G",
+                    "description": "Threonine",
+                    "round": 3,
+                    "order": 16400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a01",
+            "food-id": 1002,
+            "nutrient-id": 503,
+            "hundred-grams": 0.051,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c7",
+                    "id": 503,
+                    "uom": "g",
+                    "tag": "ILE_G",
+                    "description": "Isoleucine",
+                    "round": 3,
+                    "order": 16500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a02",
+            "food-id": 1002,
+            "nutrient-id": 504,
+            "hundred-grams": 0.083,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c8",
+                    "id": 504,
+                    "uom": "g",
+                    "tag": "LEU_G",
+                    "description": "Leucine",
+                    "round": 3,
+                    "order": 16600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a03",
+            "food-id": 1002,
+            "nutrient-id": 505,
+            "hundred-grams": 0.067,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8c9",
+                    "id": 505,
+                    "uom": "g",
+                    "tag": "LYS_G",
+                    "description": "Lysine",
+                    "round": 3,
+                    "order": 16700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a04",
+            "food-id": 1002,
+            "nutrient-id": 506,
+            "hundred-grams": 0.021,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ca",
+                    "id": 506,
+                    "uom": "g",
+                    "tag": "MET_G",
+                    "description": "Methionine",
+                    "round": 3,
+                    "order": 16800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a05",
+            "food-id": 1002,
+            "nutrient-id": 507,
+            "hundred-grams": 0.008,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8cb",
+                    "id": 507,
+                    "uom": "g",
+                    "tag": "CYS_G",
+                    "description": "Cystine",
+                    "round": 3,
+                    "order": 16900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a06",
+            "food-id": 1002,
+            "nutrient-id": 508,
+            "hundred-grams": 0.041,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8cc",
+                    "id": 508,
+                    "uom": "g",
+                    "tag": "PHE_G",
+                    "description": "Phenylalanine",
+                    "round": 3,
+                    "order": 17000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a07",
+            "food-id": 1002,
+            "nutrient-id": 509,
+            "hundred-grams": 0.041,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8cd",
+                    "id": 509,
+                    "uom": "g",
+                    "tag": "TYR_G",
+                    "description": "Tyrosine",
+                    "round": 3,
+                    "order": 17100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a08",
+            "food-id": 1002,
+            "nutrient-id": 510,
+            "hundred-grams": 0.057,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ce",
+                    "id": 510,
+                    "uom": "g",
+                    "tag": "VAL_G",
+                    "description": "Valine",
+                    "round": 3,
+                    "order": 17200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a09",
+            "food-id": 1002,
+            "nutrient-id": 511,
+            "hundred-grams": 0.031,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8cf",
+                    "id": 511,
+                    "uom": "g",
+                    "tag": "ARG_G",
+                    "description": "Arginine",
+                    "round": 3,
+                    "order": 17300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a0a",
+            "food-id": 1002,
+            "nutrient-id": 512,
+            "hundred-grams": 0.023,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d0",
+                    "id": 512,
+                    "uom": "g",
+                    "tag": "HISTN_G",
+                    "description": "Histidine",
+                    "round": 3,
+                    "order": 17400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a0b",
+            "food-id": 1002,
+            "nutrient-id": 513,
+            "hundred-grams": 0.029,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d1",
+                    "id": 513,
+                    "uom": "g",
+                    "tag": "ALA_G",
+                    "description": "Alanine",
+                    "round": 3,
+                    "order": 17500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a0c",
+            "food-id": 1002,
+            "nutrient-id": 514,
+            "hundred-grams": 0.064,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d2",
+                    "id": 514,
+                    "uom": "g",
+                    "tag": "ASP_G",
+                    "description": "Aspartic acid",
+                    "round": 3,
+                    "order": 17600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a0d",
+            "food-id": 1002,
+            "nutrient-id": 515,
+            "hundred-grams": 0.178,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d3",
+                    "id": 515,
+                    "uom": "g",
+                    "tag": "GLU_G",
+                    "description": "Glutamic acid",
+                    "round": 3,
+                    "order": 17700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a0e",
+            "food-id": 1002,
+            "nutrient-id": 516,
+            "hundred-grams": 0.018,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d4",
+                    "id": 516,
+                    "uom": "g",
+                    "tag": "GLY_G",
+                    "description": "Glycine",
+                    "round": 3,
+                    "order": 17800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a0f",
+            "food-id": 1002,
+            "nutrient-id": 517,
+            "hundred-grams": 0.082,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d5",
+                    "id": 517,
+                    "uom": "g",
+                    "tag": "PRO_G",
+                    "description": "Proline",
+                    "round": 3,
+                    "order": 17900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a10",
+            "food-id": 1002,
+            "nutrient-id": 518,
+            "hundred-grams": 0.046,
+            "data-points": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "ref-id": 1002,
+            "add-date": "11/1976",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d6",
+                    "id": 518,
+                    "uom": "g",
+                    "tag": "SER_G",
+                    "description": "Serine",
+                    "round": 3,
+                    "order": 18000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a11",
+            "food-id": 1002,
+            "nutrient-id": 573,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 7,
+            "derivation-code": "Z",
+            "add-date": "09/2004",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d8",
+                    "id": 573,
+                    "uom": "mg",
+                    "description": "Vitamin E, added",
+                    "round": 2,
+                    "order": 7920
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a12",
+            "food-id": 1002,
+            "nutrient-id": 578,
+            "hundred-grams": 0,
+            "data-points": 0,
+            "code": 7,
+            "derivation-code": "Z",
+            "add-date": "04/2005",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8d9",
+                    "id": 578,
+                    "uom": "ï¿½g",
+                    "description": "Vitamin B-12, added",
+                    "round": 2,
+                    "order": 7340
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a13",
+            "food-id": 1002,
+            "nutrient-id": 601,
+            "hundred-grams": 225,
+            "data-points": 6,
+            "std-error": 0.495,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 223,
+            "max": 228,
+            "degrees-freedom": 2,
+            "low-error": 223.16,
+            "high-error": 227.308,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8da",
+                    "id": 601,
+                    "uom": "mg",
+                    "tag": "CHOLE",
+                    "description": "Cholesterol",
+                    "round": 0,
+                    "order": 15700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a14",
+            "food-id": 1002,
+            "nutrient-id": 605,
+            "hundred-grams": 2.669,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8db",
+                    "id": 605,
+                    "uom": "g",
+                    "tag": "FATRN",
+                    "description": "Fatty acids, total trans",
+                    "round": 3,
+                    "order": 15400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a15",
+            "food-id": 1002,
+            "nutrient-id": 606,
+            "hundred-grams": 45.39,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8dc",
+                    "id": 606,
+                    "uom": "g",
+                    "tag": "FASAT",
+                    "description": "Fatty acids, total saturated",
+                    "round": 3,
+                    "order": 9700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a16",
+            "food-id": 1002,
+            "nutrient-id": 607,
+            "hundred-grams": 1.635,
+            "data-points": 9,
+            "std-error": 0.005,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 1.592,
+            "max": 1.668,
+            "degrees-freedom": 3,
+            "low-error": 1.616,
+            "high-error": 1.654,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8dd",
+                    "id": 607,
+                    "uom": "g",
+                    "tag": "F4D0",
+                    "description": "4:0",
+                    "round": 3,
+                    "order": 9800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a17",
+            "food-id": 1002,
+            "nutrient-id": 608,
+            "hundred-grams": 1.373,
+            "data-points": 9,
+            "std-error": 0.004,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 1.344,
+            "max": 1.398,
+            "degrees-freedom": 5,
+            "low-error": 1.363,
+            "high-error": 1.384,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8de",
+                    "id": 608,
+                    "uom": "g",
+                    "tag": "F6D0",
+                    "description": "6:0",
+                    "round": 3,
+                    "order": 9900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a18",
+            "food-id": 1002,
+            "nutrient-id": 609,
+            "hundred-grams": 0.858,
+            "data-points": 9,
+            "std-error": 0.005,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.83,
+            "max": 0.878,
+            "degrees-freedom": 6,
+            "low-error": 0.847,
+            "high-error": 0.87,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8df",
+                    "id": 609,
+                    "uom": "g",
+                    "tag": "F8D0",
+                    "description": "8:0",
+                    "round": 3,
+                    "order": 10000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a19",
+            "food-id": 1002,
+            "nutrient-id": 610,
+            "hundred-grams": 2.039,
+            "data-points": 9,
+            "std-error": 0.016,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 1.934,
+            "max": 2.097,
+            "degrees-freedom": 6,
+            "low-error": 1.998,
+            "high-error": 2.079,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e0",
+                    "id": 610,
+                    "uom": "g",
+                    "tag": "F10D0",
+                    "description": "10:0",
+                    "round": 3,
+                    "order": 10100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a1a",
+            "food-id": 1002,
+            "nutrient-id": 611,
+            "hundred-grams": 2.354,
+            "data-points": 9,
+            "std-error": 0.019,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 2.249,
+            "max": 2.418,
+            "degrees-freedom": 4,
+            "low-error": 2.298,
+            "high-error": 2.411,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e1",
+                    "id": 611,
+                    "uom": "g",
+                    "tag": "F12D0",
+                    "description": "12:0",
+                    "round": 3,
+                    "order": 10300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a1b",
+            "food-id": 1002,
+            "nutrient-id": 612,
+            "hundred-grams": 7.515,
+            "data-points": 9,
+            "std-error": 0.034,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 7.322,
+            "max": 7.617,
+            "degrees-freedom": 1,
+            "low-error": 7.283,
+            "high-error": 7.747,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e2",
+                    "id": 612,
+                    "uom": "g",
+                    "tag": "F14D0",
+                    "description": "14:0",
+                    "round": 3,
+                    "order": 10500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a1c",
+            "food-id": 1002,
+            "nutrient-id": 613,
+            "hundred-grams": 20.531,
+            "data-points": 9,
+            "std-error": 0.139,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 19.678,
+            "max": 21.085,
+            "degrees-freedom": 2,
+            "low-error": 19.839,
+            "high-error": 21.223,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e3",
+                    "id": 613,
+                    "uom": "g",
+                    "tag": "F16D0",
+                    "description": "16:0",
+                    "round": 3,
+                    "order": 10700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a1d",
+            "food-id": 1002,
+            "nutrient-id": 614,
+            "hundred-grams": 7.649,
+            "data-points": 9,
+            "std-error": 0.098,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 7.305,
+            "max": 8.32,
+            "degrees-freedom": 3,
+            "low-error": 7.324,
+            "high-error": 7.974,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e4",
+                    "id": 614,
+                    "uom": "g",
+                    "tag": "F18D0",
+                    "description": "18:0",
+                    "round": 3,
+                    "order": 10900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a1e",
+            "food-id": 1002,
+            "nutrient-id": 615,
+            "hundred-grams": 0.106,
+            "data-points": 9,
+            "std-error": 0.002,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.1,
+            "max": 0.116,
+            "degrees-freedom": 5,
+            "low-error": 0.102,
+            "high-error": 0.11,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e5",
+                    "id": 615,
+                    "uom": "g",
+                    "tag": "F20D0",
+                    "description": "20:0",
+                    "round": 3,
+                    "order": 11100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a1f",
+            "food-id": 1002,
+            "nutrient-id": 617,
+            "hundred-grams": 17.37,
+            "data-points": 9,
+            "std-error": 0.13,
+            "code": 1,
+            "derivation-code": "AS",
+            "studies": 1,
+            "min": 16.875,
+            "max": 18.053,
+            "degrees-freedom": 1,
+            "low-error": 16.184,
+            "high-error": 18.555,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e6",
+                    "id": 617,
+                    "uom": "g",
+                    "tag": "F18D1",
+                    "description": "18:1 undifferentiated",
+                    "round": 3,
+                    "order": 12100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a20",
+            "food-id": 1002,
+            "nutrient-id": 618,
+            "hundred-grams": 2.713,
+            "data-points": 9,
+            "std-error": 0.045,
+            "code": 1,
+            "derivation-code": "AS",
+            "studies": 1,
+            "min": 2.532,
+            "max": 2.929,
+            "degrees-freedom": 1,
+            "low-error": 2.369,
+            "high-error": 3.058,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e7",
+                    "id": 618,
+                    "uom": "g",
+                    "tag": "F18D2",
+                    "description": "18:2 undifferentiated",
+                    "round": 3,
+                    "order": 13100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a21",
+            "food-id": 1002,
+            "nutrient-id": 619,
+            "hundred-grams": 0.298,
+            "data-points": 9,
+            "std-error": 0.003,
+            "code": 1,
+            "derivation-code": "AS",
+            "studies": 1,
+            "min": 0.259,
+            "max": 0.327,
+            "degrees-freedom": 6,
+            "low-error": 0.29,
+            "high-error": 0.306,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e8",
+                    "id": 619,
+                    "uom": "g",
+                    "tag": "F18D3",
+                    "description": "18:3 undifferentiated",
+                    "round": 3,
+                    "order": 13900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a22",
+            "food-id": 1002,
+            "nutrient-id": 620,
+            "hundred-grams": 0.119,
+            "data-points": 9,
+            "std-error": 0.002,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.11,
+            "max": 0.135,
+            "degrees-freedom": 6,
+            "low-error": 0.114,
+            "high-error": 0.123,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8e9",
+                    "id": 620,
+                    "uom": "g",
+                    "tag": "F20D4",
+                    "description": "20:4 undifferentiated",
+                    "round": 3,
+                    "order": 14700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a23",
+            "food-id": 1002,
+            "nutrient-id": 621,
+            "hundred-grams": 0.003,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.002,
+            "max": 0.004,
+            "degrees-freedom": 3,
+            "low-error": 0.002,
+            "high-error": 0.003,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ea",
+                    "id": 621,
+                    "uom": "g",
+                    "tag": "F22D6",
+                    "description": "22:6 n-3 (DHA)",
+                    "round": 3,
+                    "order": 15300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a24",
+            "food-id": 1002,
+            "nutrient-id": 624,
+            "hundred-grams": 0.032,
+            "data-points": 9,
+            "std-error": 0.003,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0.038,
+            "degrees-freedom": 5,
+            "low-error": 0.025,
+            "high-error": 0.039,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8eb",
+                    "id": 624,
+                    "uom": "g",
+                    "tag": "F22D0",
+                    "description": "22:0",
+                    "round": 3,
+                    "order": 11200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a25",
+            "food-id": 1002,
+            "nutrient-id": 625,
+            "hundred-grams": 0.781,
+            "data-points": 9,
+            "std-error": 0.012,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.708,
+            "max": 0.842,
+            "degrees-freedom": 5,
+            "low-error": 0.75,
+            "high-error": 0.813,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ec",
+                    "id": 625,
+                    "uom": "g",
+                    "tag": "F14D1",
+                    "description": "14:1",
+                    "round": 3,
+                    "order": 11500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a26",
+            "food-id": 1002,
+            "nutrient-id": 626,
+            "hundred-grams": 1.417,
+            "data-points": 9,
+            "std-error": 0.028,
+            "code": 1,
+            "derivation-code": "AS",
+            "studies": 1,
+            "min": 1.148,
+            "max": 1.57,
+            "degrees-freedom": 6,
+            "low-error": 1.347,
+            "high-error": 1.486,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ed",
+                    "id": 626,
+                    "uom": "g",
+                    "tag": "F16D1",
+                    "description": "16:1 undifferentiated",
+                    "round": 3,
+                    "order": 11700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a27",
+            "food-id": 1002,
+            "nutrient-id": 627,
+            "hundred-grams": 0.003,
+            "data-points": 9,
+            "std-error": 0.002,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0.011,
+            "degrees-freedom": 3,
+            "low-error": -0.002,
+            "high-error": 0.008,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ee",
+                    "id": 627,
+                    "uom": "g",
+                    "tag": "F18D4",
+                    "description": "18:4",
+                    "round": 3,
+                    "order": 14250
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a28",
+            "food-id": 1002,
+            "nutrient-id": 628,
+            "hundred-grams": 0.147,
+            "data-points": 9,
+            "std-error": 0.002,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.137,
+            "max": 0.16,
+            "degrees-freedom": 4,
+            "low-error": 0.141,
+            "high-error": 0.154,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ef",
+                    "id": 628,
+                    "uom": "g",
+                    "tag": "F20D1",
+                    "description": "20:1",
+                    "round": 3,
+                    "order": 12400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a29",
+            "food-id": 1002,
+            "nutrient-id": 629,
+            "hundred-grams": 0.022,
+            "data-points": 9,
+            "std-error": 0.001,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.016,
+            "max": 0.026,
+            "degrees-freedom": 2,
+            "low-error": 0.018,
+            "high-error": 0.026,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8f0",
+                    "id": 629,
+                    "uom": "g",
+                    "tag": "F20D5",
+                    "description": "20:5 n-3 (EPA)",
+                    "round": 3,
+                    "order": 15000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a2a",
+            "food-id": 1002,
+            "nutrient-id": 630,
+            "hundred-grams": 0.005,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "AS",
+            "studies": 1,
+            "min": 0.003,
+            "max": 0.007,
+            "degrees-freedom": 1,
+            "low-error": 0.002,
+            "high-error": 0.007,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8f1",
+                    "id": 630,
+                    "uom": "g",
+                    "tag": "F22D1",
+                    "description": "22:1 undifferentiated",
+                    "round": 3,
+                    "order": 12500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a2b",
+            "food-id": 1002,
+            "nutrient-id": 631,
+            "hundred-grams": 0.045,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.042,
+            "max": 0.047,
+            "degrees-freedom": 2,
+            "low-error": 0.044,
+            "high-error": 0.046,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8f2",
+                    "id": 631,
+                    "uom": "g",
+                    "tag": "F22D5",
+                    "description": "22:5 n-3 (DPA)",
+                    "round": 3,
+                    "order": 15200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a2c",
+            "food-id": 1002,
+            "nutrient-id": 645,
+            "hundred-grams": 19.874,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8f7",
+                    "id": 645,
+                    "uom": "g",
+                    "tag": "FAMS",
+                    "description": "Fatty acids, total monounsaturated",
+                    "round": 3,
+                    "order": 11400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a2d",
+            "food-id": 1002,
+            "nutrient-id": 646,
+            "hundred-grams": 3.331,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8f8",
+                    "id": 646,
+                    "uom": "g",
+                    "tag": "FAPU",
+                    "description": "Fatty acids, total polyunsaturated",
+                    "round": 3,
+                    "order": 12900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a2e",
+            "food-id": 1002,
+            "nutrient-id": 652,
+            "hundred-grams": 0.801,
+            "data-points": 9,
+            "std-error": 0.009,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.762,
+            "max": 0.839,
+            "degrees-freedom": 2,
+            "low-error": 0.762,
+            "high-error": 0.841,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8f9",
+                    "id": 652,
+                    "uom": "g",
+                    "tag": "F15D0",
+                    "description": "15:0",
+                    "round": 3,
+                    "order": 10600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a2f",
+            "food-id": 1002,
+            "nutrient-id": 653,
+            "hundred-grams": 0.476,
+            "data-points": 9,
+            "std-error": 0.004,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.457,
+            "max": 0.49,
+            "degrees-freedom": 2,
+            "low-error": 0.461,
+            "high-error": 0.491,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8fa",
+                    "id": 653,
+                    "uom": "g",
+                    "tag": "F17D0",
+                    "description": "17:0",
+                    "round": 3,
+                    "order": 10800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a30",
+            "food-id": 1002,
+            "nutrient-id": 654,
+            "hundred-grams": 0.021,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.018,
+            "max": 0.022,
+            "degrees-freedom": 6,
+            "low-error": 0.02,
+            "high-error": 0.021,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8fb",
+                    "id": 654,
+                    "uom": "g",
+                    "tag": "F24D0",
+                    "description": "24:0",
+                    "round": 3,
+                    "order": 11300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a31",
+            "food-id": 1002,
+            "nutrient-id": 662,
+            "hundred-grams": 0.246,
+            "data-points": 9,
+            "std-error": 0.004,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.226,
+            "max": 0.268,
+            "degrees-freedom": 4,
+            "low-error": 0.236,
+            "high-error": 0.257,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8fc",
+                    "id": 662,
+                    "uom": "g",
+                    "tag": "F16D1T",
+                    "description": "16:1 t",
+                    "round": 3,
+                    "order": 11900
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a32",
+            "food-id": 1002,
+            "nutrient-id": 663,
+            "hundred-grams": 1.911,
+            "data-points": 9,
+            "std-error": 0.035,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 1.795,
+            "max": 2.108,
+            "degrees-freedom": 1,
+            "low-error": 1.6,
+            "high-error": 2.222,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8fd",
+                    "id": 663,
+                    "uom": "g",
+                    "tag": "F18D1T",
+                    "description": "18:1 t",
+                    "round": 3,
+                    "order": 12300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a33",
+            "food-id": 1002,
+            "nutrient-id": 664,
+            "hundred-grams": 0,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8fe",
+                    "id": 664,
+                    "uom": "g",
+                    "tag": "F22D1T",
+                    "description": "22:1 t",
+                    "round": 3,
+                    "order": 12700
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a34",
+            "food-id": 1002,
+            "nutrient-id": 665,
+            "hundred-grams": 0.503,
+            "data-points": 9,
+            "std-error": 0.009,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.473,
+            "max": 0.557,
+            "degrees-freedom": 1,
+            "low-error": 0.444,
+            "high-error": 0.562,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c8ff",
+                    "id": 665,
+                    "uom": "g",
+                    "description": "18:2 t not further defined",
+                    "round": 3,
+                    "order": 13800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a35",
+            "food-id": 1002,
+            "nutrient-id": 670,
+            "hundred-grams": 0.413,
+            "data-points": 9,
+            "std-error": 0.007,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.388,
+            "max": 0.467,
+            "degrees-freedom": 5,
+            "low-error": 0.395,
+            "high-error": 0.43,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c902",
+                    "id": 670,
+                    "uom": "g",
+                    "tag": "F18D2CLA",
+                    "description": "18:2 CLAs",
+                    "round": 3,
+                    "order": 13300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a36",
+            "food-id": 1002,
+            "nutrient-id": 671,
+            "hundred-grams": 0.002,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0.004,
+            "degrees-freedom": 6,
+            "low-error": 0.001,
+            "high-error": 0.003,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c903",
+                    "id": 671,
+                    "uom": "g",
+                    "tag": "F24D1C",
+                    "description": "24:1 c",
+                    "round": 3,
+                    "order": 12800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a37",
+            "food-id": 1002,
+            "nutrient-id": 672,
+            "hundred-grams": 0.016,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.015,
+            "max": 0.018,
+            "degrees-freedom": 5,
+            "low-error": 0.015,
+            "high-error": 0.016,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c904",
+                    "id": 672,
+                    "uom": "g",
+                    "tag": "F20D2CN6",
+                    "description": "20:2 n-6 c,c",
+                    "round": 3,
+                    "order": 14300
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a38",
+            "food-id": 1002,
+            "nutrient-id": 673,
+            "hundred-grams": 1.17,
+            "data-points": 9,
+            "std-error": 0.029,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.908,
+            "max": 1.321,
+            "degrees-freedom": 6,
+            "low-error": 1.098,
+            "high-error": 1.242,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c905",
+                    "id": 673,
+                    "uom": "g",
+                    "tag": "F16D1C",
+                    "description": "16:1 c",
+                    "round": 3,
+                    "order": 11800
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a39",
+            "food-id": 1002,
+            "nutrient-id": 674,
+            "hundred-grams": 15.459,
+            "data-points": 9,
+            "std-error": 0.1,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 15.08,
+            "max": 15.945,
+            "degrees-freedom": 1,
+            "low-error": 14.79,
+            "high-error": 16.128,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c906",
+                    "id": 674,
+                    "uom": "g",
+                    "tag": "F18D1C",
+                    "description": "18:1 c",
+                    "round": 3,
+                    "order": 12200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a3a",
+            "food-id": 1002,
+            "nutrient-id": 675,
+            "hundred-grams": 1.798,
+            "data-points": 9,
+            "std-error": 0.036,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 1.663,
+            "max": 1.945,
+            "degrees-freedom": 2,
+            "low-error": 1.639,
+            "high-error": 1.956,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c907",
+                    "id": 675,
+                    "uom": "g",
+                    "tag": "F18D2CN6",
+                    "description": "18:2 n-6 c,c",
+                    "round": 3,
+                    "order": 13200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a3b",
+            "food-id": 1002,
+            "nutrient-id": 676,
+            "hundred-grams": 0.005,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.003,
+            "max": 0.007,
+            "degrees-freedom": 1,
+            "low-error": 0.002,
+            "high-error": 0.007,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c908",
+                    "id": 676,
+                    "uom": "g",
+                    "tag": "F22D1C",
+                    "description": "22:1 c",
+                    "round": 3,
+                    "order": 12600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a3c",
+            "food-id": 1002,
+            "nutrient-id": 685,
+            "hundred-grams": 0.005,
+            "data-points": 9,
+            "std-error": 0.001,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.002,
+            "max": 0.008,
+            "degrees-freedom": 4,
+            "low-error": 0.003,
+            "high-error": 0.007,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c909",
+                    "id": 685,
+                    "uom": "g",
+                    "tag": "F18D3CN6",
+                    "description": "18:3 n-6 c,c,c",
+                    "round": 3,
+                    "order": 14100
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a3d",
+            "food-id": 1002,
+            "nutrient-id": 687,
+            "hundred-grams": 0.152,
+            "data-points": 9,
+            "std-error": 0.003,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.14,
+            "max": 0.168,
+            "degrees-freedom": 3,
+            "low-error": 0.144,
+            "high-error": 0.161,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c90a",
+                    "id": 687,
+                    "uom": "g",
+                    "tag": "F17D1",
+                    "description": "17:1",
+                    "round": 3,
+                    "order": 12000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a3e",
+            "food-id": 1002,
+            "nutrient-id": 689,
+            "hundred-grams": 0.086,
+            "data-points": 9,
+            "std-error": 0.001,
+            "code": 1,
+            "derivation-code": "AS",
+            "studies": 1,
+            "min": 0.081,
+            "max": 0.096,
+            "degrees-freedom": 6,
+            "low-error": 0.084,
+            "high-error": 0.088,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c90b",
+                    "id": 689,
+                    "uom": "g",
+                    "tag": "F20D3",
+                    "description": "20:3 undifferentiated",
+                    "round": 3,
+                    "order": 14400
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a3f",
+            "food-id": 1002,
+            "nutrient-id": 693,
+            "hundred-grams": 2.157,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c90c",
+                    "id": 693,
+                    "uom": "g",
+                    "tag": "FATRNM",
+                    "description": "Fatty acids, total trans-monoenoic",
+                    "round": 3,
+                    "order": 15500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a40",
+            "food-id": 1002,
+            "nutrient-id": 695,
+            "hundred-grams": 0.511,
+            "data-points": 0,
+            "code": 4,
+            "derivation-code": "NC",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c90d",
+                    "id": 695,
+                    "uom": "g",
+                    "tag": "FATRNP",
+                    "description": "Fatty acids, total trans-polyenoic",
+                    "round": 3,
+                    "order": 15600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a41",
+            "food-id": 1002,
+            "nutrient-id": 697,
+            "hundred-grams": 0,
+            "data-points": 9,
+            "std-error": 0,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c90f",
+                    "id": 697,
+                    "uom": "g",
+                    "tag": "F15D1",
+                    "description": "15:1",
+                    "round": 3,
+                    "order": 11600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a42",
+            "food-id": 1002,
+            "nutrient-id": 851,
+            "hundred-grams": 0.285,
+            "data-points": 9,
+            "std-error": 0.003,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.248,
+            "max": 0.313,
+            "degrees-freedom": 6,
+            "low-error": 0.278,
+            "high-error": 0.292,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c910",
+                    "id": 851,
+                    "uom": "g",
+                    "tag": "F18D3CN3",
+                    "description": "18:3 n-3 c,c,c (ALA)",
+                    "round": 3,
+                    "order": 14000
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a43",
+            "food-id": 1002,
+            "nutrient-id": 852,
+            "hundred-grams": 0.005,
+            "data-points": 9,
+            "std-error": 0.001,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.004,
+            "max": 0.009,
+            "degrees-freedom": 3,
+            "low-error": 0.003,
+            "high-error": 0.008,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c911",
+                    "id": 852,
+                    "uom": "g",
+                    "tag": "F20D3N3",
+                    "description": "20:3 n-3",
+                    "round": 3,
+                    "order": 14500
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a44",
+            "food-id": 1002,
+            "nutrient-id": 853,
+            "hundred-grams": 0.081,
+            "data-points": 9,
+            "std-error": 0.001,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.076,
+            "max": 0.088,
+            "degrees-freedom": 4,
+            "low-error": 0.078,
+            "high-error": 0.084,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c912",
+                    "id": 853,
+                    "uom": "g",
+                    "tag": "F20D3N6",
+                    "description": "20:3 n-6",
+                    "round": 3,
+                    "order": 14600
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a45",
+            "food-id": 1002,
+            "nutrient-id": 856,
+            "hundred-grams": 0.008,
+            "data-points": 9,
+            "std-error": 0.001,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0,
+            "max": 0.009,
+            "degrees-freedom": 5,
+            "low-error": 0.006,
+            "high-error": 0.01,
+            "comments": "1, 2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c914",
+                    "id": 856,
+                    "uom": "g",
+                    "description": "18:3i",
+                    "round": 3,
+                    "order": 14200
+                }
+            ]
+        },
+        {
+            "_id": "589b40f3465f2a18132b6a46",
+            "food-id": 1002,
+            "nutrient-id": 858,
+            "hundred-grams": 0.02,
+            "data-points": 9,
+            "std-error": 0.001,
+            "code": 1,
+            "derivation-code": "A",
+            "studies": 1,
+            "min": 0.017,
+            "max": 0.024,
+            "degrees-freedom": 2,
+            "low-error": 0.018,
+            "high-error": 0.023,
+            "comments": "2, 3",
+            "add-date": "02/2015",
+            "definition": [
+                {
+                    "_id": "589b4100465f2a181335c916",
+                    "id": 858,
+                    "uom": "g",
+                    "tag": "F22D4",
+                    "description": "22:4",
+                    "round": 3,
+                    "order": 15160
+                }
+            ]
+        }
+    ]
+}
