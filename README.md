@@ -1,6 +1,6 @@
 # USDA Microservices
 
-** Archived and not kept up to date **
+**Archived and not kept up to date**
 
 This is a simple example of building an environment with Docker for micro-services. The services aren't intended to be "pure" examples but rather provide a point of reference for two key aspects: 
 
