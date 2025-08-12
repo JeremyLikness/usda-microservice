@@ -1,5 +1,7 @@
 # USDA Microservices
 
+** Archived and not kept up to date **
+
 This is a simple example of building an environment with Docker for micro-services. The services aren't intended to be "pure" examples but rather provide a point of reference for two key aspects: 
 
 1. The use of [micro-locator](https://github.com/jeremylikness/micro-locator) as a means to resolve end points in the app
